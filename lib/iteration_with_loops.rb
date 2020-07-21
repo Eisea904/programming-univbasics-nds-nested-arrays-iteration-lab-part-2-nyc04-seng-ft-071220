@@ -10,9 +10,9 @@ def find_min_in_nested_arrays(src)
       if least_num < src[row_index][column_index]
         least_num = src[row_index][column_index]
       end
-      new_array << least_num
     column_index += 1
     end
+    new_array << least_num
     row_index += 1
   end
   new_array
